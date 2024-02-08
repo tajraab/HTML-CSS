@@ -2,13 +2,21 @@
 body{
     margin:0;
 }
-.parent{
+/* .parent{
     background-color: grey;
     padding: 50px;
     margin:0 auto;
     /* width: 900px; */
-}
+    /* width: 80%; */
+/* }
 .child{
     background-color: aqua;
     height: 250px;
+    width: 50%;
+/* } */ 
+.container{
+    background:gray;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
 }
