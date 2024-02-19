@@ -39,3 +39,12 @@
     bottom: -10px;
     transition: 0.5s;
 }
+.content{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
+    
+}
