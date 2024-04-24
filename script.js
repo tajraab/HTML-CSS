@@ -1,3 +1,4 @@
+//VARIJABLE
 
 // let js = "amazing"
 //       if (js === "amazing") alert("java script is valid")
@@ -18,18 +19,31 @@
 // let x=10+5;
 // console.log(x)
 
+
 ///STRINGS
 
-const firstName="Jonas";
-const job="teacher";
-const birthYear=1991;
-const year=2037;
-const jonas= "I am" + firstName + "a" + (year-birthYear)+"years old" + job +".";
-console.log(jonas);
+// const firstName="Jonas";
+// const job="teacher";
+// const birthYear=1991;
+// const year=2037;
+// const jonas= "I am" + firstName + "a" + (year-birthYear)+"years old" + job +".";
+// console.log(jonas);
 
-const jonasNew=`I am ${firstName},a ${year-birthYear}year odl ${job}.`;
-console.log(jonasNew);
+// const jonasNew=`I am ${firstName},a ${year-birthYear}year odl ${job}.`;
+// console.log(jonasNew);
 
-console.log(`string
-multiple
-lines`);
+// console.log(`string
+// multiple
+// lines`);
+
+const massMark=95;
+const heightMark=1.88;
+const massJohn=85;
+const heightJohn=1.76;
+
+const BMIMark=massMark /heightMark**2;
+const BMIJohn=massJohn/(heightJohn*heightJohn);
+const markhigherBMI=BMIMark>BMIJohn;
+console.log(BMIMark,BMIJohn,markhigherBMI);
+
+
